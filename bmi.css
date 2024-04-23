@@ -1,0 +1,103 @@
+body{
+    padding:0;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+    background:linear-gradient(to right,lightblue 10%, RGB(59, 68, 75)90%);
+}
+
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100%vh;
+    width:67vw;
+    overflow:hidden;
+}
+
+
+h1{
+    color:HSL(206, 12%, 26%);
+    font-size:3rem;
+    font-family:serif;
+    font-style:italic;
+}
+
+.height-input{
+    height:5vh;
+    width:25vw;
+    outline:none;
+    font-size:1.56em;
+    margin-bottom:10px;
+    border:none;
+    border-radius:10rem;
+    padding:15px;
+    cursor:pointer;
+    transition:all 0.25;
+}
+
+
+.weight-input{
+    height:5vh;
+    width:25vw;
+    outline:none;
+    font-size:1.56em;
+    border-radius:10rem;
+    border:none;
+    padding:15px;
+    margin:20px;
+    color:black;
+    cursor:pointer;
+}
+
+
+
+.calculate-button{
+    border-radius:10px;
+    border:none;
+    text-transform:uppercase;
+    width:20vw;
+    height:4.5vh;
+    cursor:pointer;
+    background-color:lightblue;
+    margin-bottom:50px;
+    transition:all 0.5s;
+}
+
+
+.calculate-button:hover{
+    background:linear-gradient(to left,lightblue,RGB(59, 68, 75));
+    
+}
+
+
+.calculate-button:active{
+    background-color:linear-gradient(to right,lightblue,RGB(59, 68, 75));
+    box-shadow:5px 5px 16px black;
+    opacity:0.5;
+}
+
+
+
+.display{
+    width:50vw;
+    height:40vh;
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    overflow:hidden;
+    font-size:2em;
+    font-weight:bold;
+    font-style:italic;
+    font-family:sarif;
+    color:RGB(59, 68, 75);
+    text-transform:uppercase;
+    border:none;
+    border-radius:5px;
+}
